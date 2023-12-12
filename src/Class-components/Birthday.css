@@ -1,0 +1,60 @@
+.main{
+    padding: 12em;
+    background-color: rgb(244, 222, 244);
+
+}
+
+.Topic{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: light;
+    padding-left: 1.25rem;
+}
+
+.nameAge{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: light;
+    padding-left: 1rem;
+}
+
+.content{
+    background-color: white;
+    margin: 10rem;
+    margin-top: -100pt;
+    margin-bottom: -30pt;
+    padding-bottom: 2rem;
+    
+}
+
+.sub{
+    display: flex;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.image{
+    width: 70pt;
+    height: 70pt;
+    border-radius: 25rem;
+}
+
+.button{
+    width: 350pt;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    background-color: rgb(219, 59, 219);
+    color: white;
+    border-radius: 5pt;
+    border: unset;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+}
+
+.age{
+    font-size: 1.15rem;
+    font-weight: lighter;
+    margin-top: -1rem;
+}
+
