@@ -269,6 +269,7 @@
   width: 100%;
   height: 180pt;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 15pt;
 }
@@ -278,12 +279,14 @@
   height: 80pt;
   background-color: rgb(1, 1, 41);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
 .icons {
   display: flex;
+  flex-wrap: wrap;
   gap: 10pt;
 }
 
