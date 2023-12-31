@@ -18,8 +18,7 @@ import React, { Component } from "react";
 // // import PracticeFunComp from "./FunctionCOMP/PracticeFunComp";
 // import Antdesign from "./FunctionCOMP/Antdesign";
 import Blogsite from "./Blog_project/Blogsite";
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 
 
