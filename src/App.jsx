@@ -10,13 +10,15 @@ import React, { Component } from "react";
 // import ToDoListApi from "./FunctionCOMP/ToDoListApi";
 // import PracticeFunComp from "./FunctionCOMP/PracticeFunComp";
 // import ToDOlist from "./FunctionCOMP/ToDOlist";
-import Countprovider from "./Provider/Countprovider";
-import Navbarcart from "./FunctionCOMP/Navbarcart";
-import Productlist from "./FunctionCOMP/Productlist";
-import Calculator from "./FunctionCOMP/CalculatorComp";
-import CalculatorComp from "./FunctionCOMP/CalculatorComp";
-// import PracticeFunComp from "./FunctionCOMP/PracticeFunComp";
-import Antdesign from "./FunctionCOMP/Antdesign";
+// import Countprovider from "./Provider/Countprovider";
+// import Navbarcart from "./FunctionCOMP/Navbarcart";
+// import Productlist from "./FunctionCOMP/Productlist";
+// import Calculator from "./FunctionCOMP/CalculatorComp";
+// import CalculatorComp from "./FunctionCOMP/CalculatorComp";
+// // import PracticeFunComp from "./FunctionCOMP/PracticeFunComp";
+// import Antdesign from "./FunctionCOMP/Antdesign";
+import Blogsite from "./Blog_project/Blogsite";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -66,7 +68,13 @@ class App extends Component {
 
         {/* <PracticeFunComp/> */}
 
-        <Antdesign/>
+        {/* <Antdesign/> */}
+        
+        <Blogsite/>
+
+      
+
+
         
 
       </div>

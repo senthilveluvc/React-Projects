@@ -1,0 +1,11 @@
+.round-image-slider {
+    width: 300px; /* Set the desired width */
+    margin: auto;
+  }
+  
+  .round-image-slider img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
+  

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import "./styles.css";
 
 function ToDOlist() {
   let uuid = uuidv4();
@@ -31,30 +32,33 @@ function ToDOlist() {
     settodoList(deletedtask);
   };
 
-    const handleupdate = (i)=>{
-        const updatedtask = prompt("Update your task", todoList[i].task)
-        const updatedtodolist = [...todoList]
+  const handleupdate = (i) => {
+    const updatedtask = prompt("Update your task", todoList[i].task);
+    const updatedtodolist = [...todoList];
 
-        updatedtodolist[i].task = updatedtask
-        settodoList(updatedtodolist)
-    }
+    updatedtodolist[i].task = updatedtask;
+    settodoList(updatedtodolist);
+  };
 
   return (
     <div>
       <input
+        className=".input"
         placeholder="add your task"
         type="text"
         onChange={(e) => handleinput(e)}
       />
       <button onClick={handlesubmit}>Add Task</button>
+      <div className="todo-container">
+        {todoList.map((todo, i) => (
+          <div className="todo-item" key={i}>
+            <span>{todo.task}</span>
 
-      {todoList.map((todo, i) => (
-        <div key={i}>
-          <span>{todo.task}</span>
-          <button onClick={()=>handleupdate(i)}>Update</button>
-          <button onClick={() => handledelete(todo.id)}>Delete</button>
-        </div>
-      ))}
+            <button onClick={() => handleupdate(i)}>Update</button>
+            <button onClick={() => handledelete(todo.id)}>Delete</button>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
