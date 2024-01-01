@@ -68,24 +68,24 @@ export default function Blogsite() {
       </div>
       <br />
       <div className="carouselcom">
-        <Carouselcomp />
+        <Carouselcomp/>
       </div>
       <br /> <br />
       <div className="builders">
         <div className="build">
-          <img src="./Blog/build3.png" width={"200pt"} />
+          <img src="./Blog/build3.png" width={"200vb"} />
         </div>
         <div className="build">
-          <img src="./Blog/build2.png" width={"200pt"} />
+          <img src="./Blog/build2.png" width={"200vb"} />
         </div>
         <div>
-          <img className="build3" src="./Blog/build1.png" width={"200pt"} />
+          <img className="build3" src="./Blog/build1.png" width={"200vb"} />
         </div>
         <div className="build">
-          <img src="./Blog/build6.jpeg" width={"200pt"} />
+          <img src="./Blog/build6.jpeg" width={"200vb"} />
         </div>
         <div className="build">
-          <img src="./Blog/build5.png" width={"200pt"} />
+          <img src="./Blog/build5.png" width={"200vb"} />
         </div>
       </div>
       <br /> <br /> <br />
@@ -128,8 +128,23 @@ export default function Blogsite() {
       <br />
       <br />
       <hr className="hr" />
-      <div id="about">
-        <img className="humans" src="./Blog/Humanss.png" />
+      <div className="business" id="about">
+        <div className="hp">
+          <h1 className="heads">
+            Beautifully designed,inside and out, Studio looks every bit as
+            powerful it is.
+          </h1>
+          <p className="paras">
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+          </p>
+          <img src="./Blog/sign.png" />
+        </div>
+        <div>
+          <img className="humans" src="./Blog/business.jpg" width={"80%"} />
+        </div>
       </div>
       <br />
       <br />
@@ -177,7 +192,15 @@ export default function Blogsite() {
       </h1>
       <br />
       <div>
-        <img src="./Blog/blogss.png" />
+        <div className="housecaps">
+          <img src="./Blog/housecap3.jpg" height={"10%"} width={"60%"}/>
+          <img src="./Blog/housecap.jpeg" width={"470pt"}/>
+        </div>
+        <br/>
+        <div className="housecaps2">
+          <img src="./Blog/housecap2.jpeg" width={"470pt"}/>
+          <img src="./Blog/housecap5.png" width={"60%"} />
+        </div>
       </div>
       <br />
       <div className="subscribe">

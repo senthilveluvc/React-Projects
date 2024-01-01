@@ -1,9 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import "./Blog.css";
 
 export default function Carouselcomp() {
   return (
-    <div>
+    <div className="width">
       <Carousel data-bs-theme="dark">
         <Carousel.Item>
           <img
